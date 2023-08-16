@@ -1,2 +1,0 @@
-# aidenkathriner
-My Personal Website
