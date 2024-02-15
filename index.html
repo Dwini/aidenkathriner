@@ -98,134 +98,29 @@
     </div>
     <!-- ***** Welcome Area End ***** -->
 
-    <!-- ***** Me Big Item Start ***** -->
-    <section class="section padding-0" id="me">
-      <div class="container">
-        <div class="row">
-          <div
-            class="center-heading"
-            data-scroll-reveal="enter left move 30px over 0.6s after 0.4s"
-          >
-            <div class="me">
-              <!-- ***** e Small Item Start ***** -->
-              <div
-                class="me-small-item"
-                data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s"
-              >
-                <div- class="me-item-title">
-                  <div class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42"><path d="M18,34.111l-1.667,6.667L14.111,43H31.889l-2.222-2.222L28,34.111M3,25.222H43M7.444,34.111H38.556A4.444,4.444,0,0,0,43,29.667V7.444A4.444,4.444,0,0,0,38.556,3H7.444A4.444,4.444,0,0,0,3,7.444V29.667A4.444,4.444,0,0,0,7.444,34.111Z" transform="translate(-2 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-                  </div>
-                  <h5 class="me-title"><span class="chonky-underline-megenta">Me</span></h5>
-                </div->
-                <div class="me-item-body">
-                <p>Hi, I am a self-determined Software Engineer, driven to make a meaningful impact on the world through solving engineering-based problems through the use of software and technology. 
-                </p>
-                <p>As noted by the INFINITI Engineering Academy team, including respected figures Tommaso Volpe (Managing Director at Nissan) and Andy Tod, I'm recognised for being a highly organised individual with a strong theoretical and practical foundation in both software and motorsport engineering.
-                  </p>
-                    <P>My competitive nature, pursuit of perfection, and continuous learning bring out the best in both myself and the teams I work with. This is evident in my leadership and process improvements as well as my hands-on side projects, including managing my server which you can explore below. 
-                  </p>
-                  <p>These experiences, combined with my unique background, provide me with a versatile skill set that extends beyond software, embodying the essence of both leadership and engineering. This allows me to strive above and beyond my role where I'm ready to take on any challenge! So why not put me to the test? 
-                  </p>
-              </div>
-            </div>
-            <!-- ***** Me Small Item End ***** -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ***** Me Big Item End ***** -->
+@media only screen and (max-width: 766px) {
+		.testimonial.container .elementor-container {
+/* 			flex-direction: row !important; */
+			height: initial;
+		}
+	}
+@media only screen and (max-width: 767px) {
+	.testimonial.container > .elementor-container > div {
+  width: 100% !important;
+  flex: 0 0 100% !important;
+}
+	}
+	.testimonial.container .elementor-container .right.top {
+  flex: 0 0 45%;
+}
+	
+	/* This used to work for the parent element of button divs */
+/* But it does not work with newer browsers, the below doesn't hide the play button parent div */
 
-    <!-- ***** Home Parallax Start ***** -->
-    <section class="mini" id="projects">
-      <div class="mini-content">
-        <div class="container">
-          <div class="row">
-            <div class="offset-lg-3 col-lg-6">
-              <div class="info">
-                <div
-            class="center-heading"
-            data-scroll-reveal="enter left move 30px over 0.6s after 0.4s"
-          >
-            <h2 class="section-title">My Projects</h2></div>
-                <p>
-                  Here is a collection of my recently worked on projects that I spend my spare time working on.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- ***** Mini Box Start ***** -->
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-              <a href="#" class="mini-box">
-                <i
-                  ><img src="assets/images/projects-item-01.png" alt=""
-                /></i>
-                <strong>Home Server</strong>
-                <span>Project to get a better understanding of Docker and AI Detection</span>
-              </a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-              <a href="#" class="mini-box">
-                <i
-                  ><img src="assets/images/projects-item-02.png" alt=""
-                /></i>
-                <strong>Pi Server</strong>
-                <span>Project to get a better understanding of Docker and Linux</span>
-              </a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-              <a href="https://github.com/Dwini/Insta_bot" class="mini-box">
-                <i
-                  ><img src="assets/images/projects-item-03.png" alt=""
-                /></i>
-                <strong>Insta Bot</strong>
-                <span>Small project to learn about bots</span>
-              </a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-              <a href="https://github.com/Dwini/FIT4002_Ad_Transparency" class="mini-box">
-                <i
-                  ><img src="assets/images/projects-item-01.png" alt=""
-                /></i>
-                <strong>Ad Transparency</strong>
-                <span>University Project for an ad scrapping bot</span>
-              </a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-              <a href="https://github.com/Dwini/FIT4003_T2" class="mini-box">
-                <i
-                  ><img src="assets/images/projects-item-02.png" alt=""
-                /></i>
-                <strong>Testing Self Driving Cars</strong>
-                <span>University Research Paper</span>
-              </a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-              <a href="#" class="mini-box">
-                <i
-                  ><img src="assets/images/projects-item-03.png" alt=""
-                /></i>
-                <strong>3D Printer</strong>
-                <span>Modified and redesigned my #D Printer to improve speed, quality and ease of use</span>
-              </a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-              <a href="https://github.com/Dwini/aidenkathriner" class="mini-box">
-                <i
-                  ><img src="assets/images/projects-item-01.png" alt=""
-                /></i>
-                <strong>This Website</strong>
-                <span>Little project to showcase myself and my web building skills</span>
-              </a>
-            </div>
-          </div>
-          <!-- ***** Mini Box End ***** -->
-        </div>
-      </div>
-    </section>
-    <!-- ***** Home Parallax End ***** -->
+*::-webkit-media-controls-panel {
+  display: none!important;
+  -webkit-appearance: none;
+}
 
     <!-- ***** Pricing Plans Start ***** -->
     <section class="section colored" id="experience">
@@ -240,42 +135,10 @@
         </div>
         <!-- ***** Section Title End ***** -->
 
-        <div class="row">
-          <!-- ***** Pricing Item Start ***** -->
-          <button class="accordion">
-            <div class="experience-title">
-              <div class="left">Gentrack Ltd (Global)</div>
-              <div class="right">
-                <div>July 2021 - Current</div>
-                <div class="plusminus"></div>
-              </div>
-            </div>
-          </button>
-          <div class="experience-item">
-            <div class="experience-header">
-              <h3 class="experience-title">Intermediate Engineer</h3>
-            </div>
-            <div class="experience-body">
-              <li class="active">
-                As a Tech Lead, I seamlessly integrate technical expertise with strong leadership to enhance customer satisfaction and internal operational excellence. My core values prioritise results, collaboration, and continual enhancement within cross-functional teams.
-                <br><br>-	Achieved a perfect score on my last performance review where only a very select few get
-                <br>-	Crafted and executed technical strategies, significantly boosting customer growth and satisfaction.
-                <br>-	Successfully closed and extended contracts with key customers
-                <br>-	Led scrum sessions, ensuring the team met targets on time
-                <br>-	Guided professionals, fostering a collaborative and innovative culture. Further mentored individuals, accelerating their careers
-                <br>-	Developed streamlined processes, automation, and data-driven analytics to reduce errors and enhance efficiency
-                <br>-	Built productive relationships with customers, improving software solutions for enhanced end-user experiences
-                <br>-	Championed a customer-centric mindset, consistently exceeding expectations and earning repeat requests for involvement
-              </li>
-            </div>
-            <div class="experience-footer">
-              <a href="https://docs.docker.com/get-started/overview/" class="main-button">Docker</a>
-              <a href="https://www.jenkins.io/" class="main-button">Jenkins</a>
-              <a href="https://aws.amazon.com/what-is-aws/" class="main-button">AWS</a>
-              <a href="https://www.atlassian.com/git/tutorials/what-is-git" class="main-button">Git</a>
-              <a href="https://www.shakebugs.com/blog/becoming-great-software-engineering-leader/" class="main-button">Leadership</a>
-            </div>
-          </div>
+*::-webkit-media-controls-play-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
 
           <button class="accordion">
             <div class="experience-title">
@@ -483,28 +346,63 @@
     </section>
     <!-- ***** Contact Us End ***** -->
 
-    <!-- ***** Footer Start ***** -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <p class="copyright">
-              Copyright &copy; 2022 Aiden Kathriner
-            </p>
-            <ul class="social">
-              <li>
-                <a href="https://linkedin.com/in/aiden-kathriner-1949837b/"><i class="fa fa-linkedin"></i></a>
-                <a href="https://github.com/dwini"><i class="fa fa-github"></i></a>
-                <a href="mailto: aidenkathriner@gmail.com"><i class="fa fa-envelope"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="assets/js/jquery-2.1.0.min.js"></script>
+  html:not(.no-js) [data-aos=fade-up] {
+    transform: none !important;
+  }
+}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by Slider Revolution 6.5.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." /><link rel="icon" href="https://tamalsen.dev/wp-content/uploads/2021/11/cropped-favicon-32x32.png" sizes="32x32" /><link rel="icon" href="https://tamalsen.dev/wp-content/uploads/2021/11/cropped-favicon-192x192.png" sizes="192x192" /><link rel="apple-touch-icon" href="https://tamalsen.dev/wp-content/uploads/2021/11/cropped-favicon-180x180.png" /><meta name="msapplication-TileImage" content="https://tamalsen.dev/wp-content/uploads/2021/11/cropped-favicon-270x270.png" /> <script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";					
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script> <style type="text/css" id="wp-custom-css">.home #page.site {
+	overflow-x: clip;
+}
+.single-ohio_portfolio:not(.with-spacer) .project .page-container {
+    margin-top: 30px !important;
+}</style>
 
     <!-- Bootstrap -->
     <script src="assets/js/popper.js"></script>

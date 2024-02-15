@@ -646,8 +646,8 @@ header
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
-  }nav
-  .header-area .container {
+  }
+  nav .header-area .container {
     padding: 0px;
   }
   .header-area .logo {
@@ -736,7 +736,7 @@ welcome
   font-size: 10vw;
   text-transform: uppercase;
   letter-spacing: 2.2px;
-  text-shadow: 1px 3px 11px rgba(0,0,0,.3);
+  text-shadow: 1px 3px 11px rgba(0, 0, 0, 0.3);
 }
 
 .welcome-area .header-text p {
@@ -822,7 +822,7 @@ me
 --------------------------------------------- 
 */
 .me {
-  width: 100%
+  width: 100%;
 }
 
 .me .quote {
@@ -830,8 +830,8 @@ me
 }
 
 .me .me-small-item {
-   gap: 0px;
-   height: 100%;
+  gap: 0px;
+  height: 100%;
   border-style: solid;
   border-width: 3px 1.5px 3px 3px;
   border-color: #a3a3a3;
@@ -888,7 +888,7 @@ me
 
 .me .me-small-item .me-item-title .me-title {
   position: relative;
-  letter-spacing: -.01em;
+  letter-spacing: -0.01em;
   margin: 5px 50px;
   font-weight: 600;
   line-height: 1.2em;
@@ -910,7 +910,12 @@ me
   height: 0.3em;
   width: 104%;
   left: -1%;
-  background: linear-gradient(65deg, #DF058D 0%, #DF058D 100%, rgba(255, 209, 0, 0) 100%);
+  background: linear-gradient(
+    65deg,
+    #df058d 0%,
+    #df058d 100%,
+    rgba(255, 209, 0, 0) 100%
+  );
 }
 
 .me .me-small-item .me-item-body {
@@ -1091,7 +1096,8 @@ parallax & home seperator
 
 .mini .mini-content .mini-box strong {
   display: block;
-  font-weight: 400;
+  font-family: "Poppins", Sans-serif;
+  font-style: bold;
   font-size: 17px;
   color: #1a191d;
   letter-spacing: 0.25px;
@@ -1099,8 +1105,8 @@ parallax & home seperator
   margin-top: 20px;
 }
 
-.mini .mini-content .mini-box img{
-  width: 100%;
+.mini .mini-content .mini-box img {
+  width: 50%;
 }
 
 .counter {
