@@ -4,7 +4,6 @@
 - The design is based on [Bedimcode](https://github.com/bedimcode)
 - The email service provider is [FormSpree](https://formspree.io/)
 - Contact form validations are added using [JavaScript](https://www.youtube.com/watch?v=fz8bwvn9lA4) 
-- The favicon generator is [favicon.io](https://favicon.io/favicon-generator/)
 
 ### Landing Page Light
 
