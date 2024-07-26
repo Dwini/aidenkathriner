@@ -1,6 +1,6 @@
 This favicon was generated using the following font:
 
-- Font Title: Poppins
-- Font Author: Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)
-- Font Source: http://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJDUc1NECPY.ttf
-- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
+- Font Title: A4 Speed
+- Font Author: https://www.dafont.com/coki-fernandez.d9780
+- Font Source: https://www.dafont.com/a4-speed.font
+- Font License: This version of A4 SPEED FONT is completely free for personal use only.
